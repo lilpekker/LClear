@@ -1,0 +1,57 @@
+# LClear Plugin Configuration
+
+# Prefix ayarı
+prefix: "&8[&6LClear&8] &7"
+
+# Temizlik mesajları
+messages:
+  clear-message: "&aYerdeki tüm itemlar temizlendi!"
+  auto-clear-message: "Otomatik temizlik!"
+  killmobs-message: "&cTüm moblar temizlendi!"
+  countdown-message: "&eYerdeki itemler &c{time} &esaniye içinde temizlenecek!"
+  final-countdown: "&cTemizliğe {time} saniye!"
+  no-permission: "&cBu komutu kullanmak için yetkin yok!"
+  config-reloaded: "&aConfig dosyası yenilendi!"
+  usage: "&7Kullanım: /lclear <clear|reload|killmobs>"
+  plugin-enabled: "&aLClear plugini aktif!"
+  plugin-disabled: "&cLClear plugini deaktif!"
+  items-cleared-console: "{count} adet item temizlendi."
+  mobs-killed-console: "{count} adet mob öldürüldü."
+  countdown-format-minutes: "{minutes} dakika"
+  countdown-format-seconds: "{seconds} saniye"
+  
+  # Yardım mesajları
+  help-header: "&6=== &eLClear Yardım &6==="
+  help-clear: "&e/lclear clear &7- &fYerdeki itemleri temizler"
+  help-killmobs: "&e/lclear killmobs &7- &fTüm düşman mobları temizler"
+  help-reload: "&e/lclear reload &7- &fConfig dosyasını yeniler"
+  help-time: "&e/lclear time &7- &fKalan temizlik süresini gösterir"
+  help-footer: "&6======================="
+  
+  # Time mesajları
+  time-message: "Sonraki temizliğe &e{time} &7saniye kaldı."
+  time-no-autoclear: "&cOtomatik temizlik aktif değil."
+  time-format-minutes: "{minutes} dakika"
+  time-format-seconds: "{seconds} saniye"
+
+# Temizlik ayarları
+settings:
+  # Otomatik temizlik süresi (saniye)
+  auto-clear-interval: 150
+  # Otomatik temizlik aktif mi?
+  auto-clear-enabled: true
+ # Geri sayım mesajları aktif mi?
+  countdown-enabled: true
+  # Geri sayım zamanları (saniye)
+  countdown-times:
+    - 300  # 5 dakika
+    - 240  # 4 dakika
+    - 180  # 3 dakika
+    - 60   # 1 dakika
+    - 30   # 30 saniye
+    - 10   # 10 saniye
+    - 5    # 5 saniye
+    - 4    # 4 saniye
+    - 3    # 3 saniye
+    - 2    # 2 saniye
+    - 1    # 1 saniye

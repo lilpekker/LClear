@@ -1,0 +1,28 @@
+name: LClear
+version: '1.0'
+main: org.LClear.lClear.LClear
+api-version: '1.21'
+prefix: LC
+authors: [ lilpekker ]
+softdepend: [ PlaceholderAPI ]
+commands:
+  lclear:
+    description: LClear temizlik sistemi
+    usage: "/lclear <clear|killmobs|reload|time>"
+    permission: lclear.use
+permissions:
+  lclear.use:
+    description: LClear komutlarını kullanma izni
+    default: true
+  lclear.clear:
+    description: Itemleri manuel temizleme izni
+    default: op
+  lclear.killmobs:
+    description: Mobları öldürme izni
+    default: op
+  lclear.time:
+    description: Kalan süreyi görme izni
+    default: true
+  lclear.reload:
+    description: Config yenileme izni
+    default: op

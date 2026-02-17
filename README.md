@@ -21,6 +21,7 @@ Eklentinin ayarları `config.yml` dosyasında bulunmaktadır. Bu dosyayı düzen
 - `/lclear` - Ana komut
 - Diğer komutlar için eklenti içindeki yardım menüsünü kullanın
 - %lclear_time% pleaholder ile süreyi gösterir.
+
 ## İzinler
 - `lclear.use` - Eklentiyi kullanma izni
 - `lclear.admin` - Yönetici izinleri
